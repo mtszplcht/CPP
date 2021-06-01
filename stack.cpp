@@ -40,7 +40,7 @@ bool Stack::isEmpty(){
     else return false;
 }
 int Stack::size(){
-    return top;
+    return stackLength;
 }
 int Stack::peek() const {
     if(top < 0) {
